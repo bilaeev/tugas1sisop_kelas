@@ -224,6 +224,7 @@ Karena program akan mengganti frame secara acak setiap kali halaman tidak ditemu
 [2 3 5 ]
 [2 3 7 ]
 [2 5 7 ]
+```
 
 KELEBIHAN  
 1. Sederhana karena program mengganti frame secara acak, sehingga mudah diimplementasikan.
