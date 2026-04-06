@@ -97,9 +97,9 @@ if(remaining_time[i] > quantum)
 PENJELASAN OUTPUT  
 Sistem muter ke semua proses, tidak menyelesaikan 1 proses langsung. Contoh :  
 - A: 10 -> 6 -> 2 -> selesai. Maka dari itu outputnya begini
-  Proses A berjalan selama 4 detik
-  Proses A berjalan selama 4 detik
-  Proses A selesai dalam 2 detik
+  Proses A berjalan selama 4 detik  
+  Proses A berjalan selama 4 detik  
+  Proses A selesai dalam 2 detik  
   (Semua dapat giliran -> adil)  
 
 KELEBIHAN  
