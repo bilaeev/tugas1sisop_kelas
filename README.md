@@ -183,7 +183,7 @@ Cara OS mengatur memori dengan membagi ke halaman (pages) & frame. Cara kerja ko
 #define FRAMES 3
 #define PAGE_COUNT 10
 ```
-Memori cuma punya  slot (frame).  
+Memori cuma punya 3 slot (frame).  
 2. Data halaman :
   ```c
   int pages [PAGE_COUNT] = {1, 2, 3, 4, 5, 2, 1, 3, 7, 5};
