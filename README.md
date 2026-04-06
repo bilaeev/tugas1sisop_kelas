@@ -99,8 +99,7 @@ Sistem muter ke semua proses, tidak menyelesaikan 1 proses langsung. Contoh :
 - A: 10 -> 6 -> 2 -> selesai. Maka dari itu outputnya begini  
   Proses A berjalan selama 4 detik  
   Proses A berjalan selama 4 detik  
-  Proses A selesai dalam 2 detik  
-  (Semua dapat giliran -> adil)  
+  Proses A selesai dalam 2 detik    
 
 KELEBIHAN  
 1. Adil.  
@@ -235,3 +234,15 @@ KEKURANGAN
 1. Random replacement tidak efisien.
 2. Bisa sering page fault.
 3. Tidak optimal dibanding FIFO, LRU, optimal.  
+
+KESIMPULAN
+1. Round Robin fokus CPU Scheduling,  
+   Paging fokus memory management.
+2. Round Robin bertujuan membagi waktu CPU,  
+   Paging bertujuan mengatur memori.  
+3. Round Robin ngatur proses,  
+   Paging ngatur halaman(page).  
+4. Round Robin pakai sistem time sharing,  
+   Paging pakai sistem virtual memory.  
+5. Round Robin bekerja dgn cara bergiliran,  
+   Paging bekerja dgn cara load & replace page.
